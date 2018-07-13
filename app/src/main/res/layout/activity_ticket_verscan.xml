@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="@color/colorw"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/ticket_lv_back"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:gravity="center_vertical"
+            android:onClick="onClick">
+
+            <ImageButton
+                android:layout_width="10dp"
+                android:layout_height="17.5dp"
+                android:layout_marginLeft="15dp"
+                android:background="@drawable/back1" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:text="门票核销"
+            android:textColor="@color/colorBlack"
+            android:textSize="20dp" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout17"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/relativeLayout"
+        android:layout_marginTop="5dp"
+        android:layout_toEndOf="@+id/radioGroup"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:id="@+id/relativeLayout_et"
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <EditText
+                android:id="@+id/ticket_et_ticketCode"
+                android:layout_width="216dp"
+                android:layout_height="30dp"
+                android:background="@drawable/good_et"
+                android:hint="请输入门票串码"
+                android:maxLength="24"
+                android:onClick="onClick"
+                android:paddingLeft="2dp"
+                android:textColor="#000"
+                android:textCursorDrawable="@null"
+                android:textSize="16sp" />
+
+            <ImageView
+                android:id="@+id/ticket_img_deleteCode"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_alignBottom="@+id/ticket_et_ticketCode"
+                android:layout_alignEnd="@+id/ticket_et_ticketCode"
+                android:layout_marginBottom="5dp"
+                android:layout_marginRight="2dp"
+                android:background="@drawable/delete2"
+                android:onClick="onClick"
+                android:visibility="gone" />
+
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/ticket_QueryTicket"
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:layout_toRightOf="@+id/relativeLayout_et"
+            android:background="@drawable/query_btnfood_selector"
+            android:onClick="onClick"
+
+            android:text="查询" />
+
+        <LinearLayout
+            android:layout_width="70dp"
+            android:layout_height="match_parent"
+            android:id="@+id/ticket_btn_bor"
+            android:onClick="onClick"
+            android:layout_marginLeft="5dp"
+            android:gravity="center">
+            <ImageView
+                android:layout_width="@dimen/separation_distance_25"
+                android:layout_height="@dimen/separation_distance_25"
+                android:layout_marginRight="15dp"
+                android:background="@drawable/btn_food_scan"
+              />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linearLayout17">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/activty_verScanrlv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="48dp" />
+    </LinearLayout>
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/linearLayout4"
+        android:background="@color/colorPrimary"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:visibility="gone">
+
+        <RadioButton
+            android:id="@+id/ticket_confirm"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:button="@null"
+            android:gravity="center"
+            android:text="确定"
+            android:textSize="28sp" />
+
+        <RadioButton
+            android:id="@+id/ticket_cancel"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:button="@null"
+            android:gravity="center"
+            android:text="取消"
+            android:textSize="28sp" />
+    </RadioGroup>
+
+    <LinearLayout
+        android:id="@+id/ll_bottom_form"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/separation_distance_48"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/ticket_clearTicket"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/selector_set_button"
+                android:onClick="onClick"
+                android:text="清除"
+                android:textColor="@color/colorBlack"
+                android:textSize="@dimen/separation_distance_18" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="@dimen/separation_distance_48"
+            android:background="@color/white_text_color" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/ticket_btn_comit"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/selector_set_button"
+                android:onClick="onClick"
+                android:text="提交"
+                android:textColor="@color/colorBlack"
+                android:textSize="@dimen/separation_distance_18"
+
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <android.inputmethodservice.KeyboardView
+            android:id="@+id/schemas_key_keyboard_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="@color/gray"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:keyBackground="@drawable/bg_keyboard_selector"
+            android:keyPreviewLayout="@layout/key_preview_layout"
+            android:keyTextColor="@color/keyTextColor"
+            android:shadowRadius="0.5"
+            android:visibility="gone" />
+
+    </RelativeLayout>
+</RelativeLayout>

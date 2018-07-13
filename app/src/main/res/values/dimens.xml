@@ -1,0 +1,77 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="activity_goods_4">4dp</dimen>
+    <dimen name="activity_goods_5">5dp</dimen>
+    <dimen name="activity_goods_16">16dp</dimen>
+    <dimen name="activity_goods_30">30dp</dimen>
+    <dimen name="activity_goods_36">36dp</dimen>
+    <dimen name="activity_goods_20">20dp</dimen>
+    <dimen name="activity_goods_22">22dp</dimen>
+    <dimen name="activity_goods_24">24dp</dimen>
+    <dimen name="activity_goods_18">18dp</dimen>
+    <dimen name="activity_goods_28">28dp</dimen>
+    <dimen name="activity_goods_17">17dp</dimen>
+    <dimen name="activity_goods_15">15dp</dimen>
+    <dimen name="activity_goods_27">27dp</dimen>
+    <dimen name="activity_goods_50">50dp</dimen>
+
+    <dimen name="view_text_10">10sp</dimen>
+    <dimen name="view_text_11">11sp</dimen>
+    <dimen name="view_text_12">12sp</dimen>
+    <dimen name="view_text_13">13sp</dimen>
+    <dimen name="view_text_15">15sp</dimen>
+    <dimen name="view_text_17">17sp</dimen>
+    <dimen name="view_text_19">19sp</dimen>
+    <dimen name="view_text_20">20sp</dimen>
+    <dimen name="view_text_22">22sp</dimen>
+    <dimen name="view_text_25">25sp</dimen>
+    <dimen name="view_text_30">30sp</dimen>
+    <dimen name="view_text_40">40sp</dimen>
+
+    <!--自定义距离-->
+    <dimen name="separation_distance_1">1dp</dimen>
+    <dimen name="separation_distance_3">3dp</dimen>
+    <dimen name="separation_distance_5">5dp</dimen>
+    <dimen name="separation_distance_6">6dp</dimen>
+    <dimen name="separation_distance_8">8dp</dimen>
+    <dimen name="separation_distance_10">10dp</dimen>
+    <dimen name="separation_distance_12">12dp</dimen>
+    <dimen name="separation_distance_15">15dp</dimen>
+    <dimen name="separation_distance_16">16dp</dimen>
+    <dimen name="separation_distance_18">18dp</dimen>
+    <dimen name="separation_distance_20">20dp</dimen>
+
+    <dimen name="separation_distance_22">22dp</dimen>
+    <dimen name="separation_distance_25">25dp</dimen>
+    <dimen name="separation_distance_26">26dp</dimen>
+    <dimen name="separation_distance_30">30dp</dimen>
+    <dimen name="separation_distance_35">35dp</dimen>
+    <dimen name="separation_distance_36">36dp</dimen>
+    <dimen name="separation_distance_40">40dp</dimen>
+
+    <dimen name="separation_distance_45">45dp</dimen>
+    <dimen name="separation_distance_48">48dp</dimen>
+    <dimen name="separation_distance_50">50dp</dimen>
+
+    <dimen name="separation_distance_70">70dp</dimen>
+    <dimen name="separation_distance_80">80dp</dimen>
+
+
+    <dimen name="separation_distance_120">120dp</dimen>
+
+
+    <dimen name="separation_distance_190">190dp</dimen>
+    <dimen name="separation_distance_200">200dp</dimen>
+
+    <!--Text Size-->
+
+    <dimen name="text_size_15">15sp</dimen>
+    <dimen name="text_size_16">16sp</dimen>
+    <dimen name="text_size_18">18sp</dimen>
+    <dimen name="text_size_19">19sp</dimen>
+    <dimen name="text_size_20">20sp</dimen>
+    <dimen name="text_size_22">22sp</dimen>
+</resources>

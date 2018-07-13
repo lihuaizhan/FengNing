@@ -1,0 +1,83 @@
+apply plugin: 'com.android.application'
+//apply plugin: 'me.tatarka.retrolambda'
+//apply plugin: 'com.android.library'
+
+
+android {
+    compileSdkVersion 25
+    buildToolsVersion '26.0.2'
+    //执行lint检查，有任何的错误或者警告提示，都会终止构建，我们可以将其关掉。
+    lintOptions {
+        abortOnError false
+    }
+    defaultConfig {
+        applicationId "com.example.tps900.tps900"
+        minSdkVersion 19
+        targetSdkVersion 19
+        versionCode 2
+        versionName "1.0.2"
+        multiDexEnabled true
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    sourceSets {
+        main {
+            jniLibs.srcDirs = ['libs']
+        }
+    }
+    productFlavors {
+    }
+    //设置JDK1.8
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+    //    BaseAdapter
+    compile 'com.github.CymChad:BaseRecyclerViewAdapterHelper:2.9.30'
+    //fastjson
+    compile 'com.alibaba:fastjson:1.2.41'
+    //butterknife
+    compile 'com.jakewharton:butterknife:8.8.1'
+    annotationProcessor 'com.jakewharton:butterknife-compiler:8.8.1'
+    //recyclerview
+    compile 'com.android.support:recyclerview-v7:26.0.0-alpha1'
+    compile files('libs/pinyin4j-2.5.0.jar')
+    compile 'com.squareup.okhttp3:okhttp:3.4.1'
+    compile 'com.squareup.okio:okio:1.9.0'
+    compile 'com.zhy:okhttputils:2.6.2'
+    compile 'com.github.bumptech.glide:glide:3.7.0'
+    //内部jar包
+    compile 'com.android:galasy:1.0.22'
+    compile 'se.emilsjolander:stickylistheaders:2.7.0'
+    testCompile 'junit:junit:4.12'
+    compile 'com.android.support:appcompat-v7:26.0.0-alpha1'
+    //    retrofit网络请求
+    compile 'com.squareup.retrofit2:retrofit:2.3.0'
+    //    retrofit--->Gson解析工厂
+    compile 'com.squareup.retrofit2:converter-gson:2.0.2'
+    compile 'com.squareup.retrofit2:converter-scalars:2.0.2'
+    compile 'io.reactivex.rxjava2:rxjava:2.0.1'
+    compile 'io.reactivex.rxjava2:rxandroid:2.0.1'
+    // 此处一定要注意使用RxJava2的版本
+    compile 'com.jakewharton.retrofit:retrofit2-rxjava2-adapter:1.0.0'
+    //配置retrofit  okhttp 打印日志
+    compile 'com.squareup.okhttp3:logging-interceptor:3.8.1'
+    //分组列表
+    compile 'com.gavin.com.library:stickyDecoration:1.1.2'
+    compile 'com.android.support:cardview-v7:26.0.0-alpha1'
+    compile 'org.greenrobot:eventbus:3.0.0'
+    compile files('libs/dom4j-1.6.1.jar')
+    compile files('libs/1card1SdkApi.jar')
+}

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorw">#d8e3ff</color>
+    <color name="colorBlack">#000</color>
+    <color name="colorGray">#b8c1d9</color>
+    <color name="colorKeyU">#ebebeb</color>
+    <color name="colorLine">#d8d8d8</color>
+    <color name="colorKeyD">#00a0e9</color>
+    <color name="colorKeyQ">#dcdcdc</color>
+    <!--自定义颜色-->
+    <!--用户名-->
+    <!--EditText Hint-->
+    <color name="colorHint_userInfo">#BFBFBF</color>
+    <!--EditText background-->
+    <!--设置界面标题背景色-->
+
+    <!--文字颜色-->
+    <color name="color_text_white">#FFFFFF</color>
+
+
+    <color name="activity_bg">#ffffff</color>
+    <!--商品售卖背景-->
+
+    <color name="activity_good_bg">#F7F3F7</color>
+    <color name="red_text_color">#ff5d5e</color>
+    <color name="black_black_text_color">#323232</color>
+    <color name="gray_line_color">#cccccc</color>
+    <color name="white_text_color">#FFFFFF</color>
+    <!-- 我的 -->
+
+    <color name="line_background">#BFBFBF</color>
+
+    <color name="default_shopping">#7F7F7F</color>
+    <color name="btn_bac">#FF743E</color>
+    <color name="oneCard_up">#FF7B48</color>
+    <color name="oneCard_dn">#BFBFBF</color>
+</resources>

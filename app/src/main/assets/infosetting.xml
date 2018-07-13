@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?><!--自定义设置-->
+<InfoSettings>
+    <InfoSetting>
+        <!--支付宝支付-->
+        <AlipayUrl>http://123.57.4.134:8021/api/pay</AlipayUrl>
+        <appId>2016052701449677</appId>
+        <AlipayName>hqcs</AlipayName>
+        <seller_id>""</seller_id>
+        <!--微信支付-->
+        <WeChatUrl>http://123.57.4.134:8011/api/pay</WeChatUrl>
+        <APPID>wxc82be7fc5f0d898a</APPID>
+        <MCHID>1276818701</MCHID>
+        <sub_mch_id>1349553301</sub_mch_id>
+        <KEY>fa987612DHEWQFHEhb232JHFfh47gG7e</KEY>
+        <APPSECRET>zzz</APPSECRET>
+        <SSLCERT_PASSWORD>1276818701</SSLCERT_PASSWORD>
+        <SSLCERT_PATH>hqcs</SSLCERT_PATH>
+        <!--线上核销接口-->
+        <Y_IP_ADDRESS>223.223.179.20:8022</Y_IP_ADDRESS>
+        <!--大平台景区编码-->
+        <Y_NUMBER>fbh0001qybm</Y_NUMBER>
+        <!--大平台景区秘钥-->
+        <Y_SECRET>7cd87fbcff9898417bb1f8d43a63e1</Y_SECRET>
+        <!--线下核销地址-->
+        <IP_ADDRESS>223.223.179.27:8003</IP_ADDRESS>
+        <!--线下售票地址-->
+        <S_IP_ADDRESS>223.223.179.27:8004</S_IP_ADDRESS>
+        <!--线下售卖地址-->
+        <ADDRESS>223.223.179.27:8085</ADDRESS>
+        <!--更新服务器地址-->
+        <UPdate_IP_ADDRESS>gsapp.galasystrip.com:9000</UPdate_IP_ADDRESS>
+        <!--一卡通接口地址-->
+        <OneCardInterface>223.223.179.27:8010</OneCardInterface>
+    </InfoSetting>
+</InfoSettings>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:background="@color/colorBlack"
+    >
+
+    <ProgressBar
+        style="@style/mProgress_circle"
+        android:layout_width="@dimen/separation_distance_50"
+        android:layout_height="@dimen/separation_distance_50"
+        android:background="@drawable/ring_bg"
+        android:layout_gravity="center_horizontal"/>
+
+    <TextView
+        android:layout_marginTop="@dimen/separation_distance_8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/text_size_15"
+        android:text="   正在退款请稍后..."
+        android:textColor="@color/color_text_white"
+        android:layout_gravity="center_horizontal"/>
+
+</LinearLayout>

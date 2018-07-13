@@ -1,0 +1,355 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.tps900.tps900.activity.ReturnActivity">
+
+    <RelativeLayout
+        android:id="@+id/tl_title_top"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/separation_distance_50"
+        android:background="@color/colorw"
+        android:gravity="center_vertical"
+        >
+        <ImageButton
+            android:id="@+id/img_back"
+            android:layout_width="@dimen/separation_distance_26"
+            android:layout_height="@dimen/separation_distance_25"
+            android:layout_marginLeft="@dimen/separation_distance_12"
+            android:layout_centerVertical="true"
+            android:src="@drawable/back"
+            android:background="@null"
+            />
+
+        <EditText
+            android:id="@+id/et_returnGoods"
+            android:layout_width="220dp"
+            android:layout_height="@dimen/separation_distance_30"
+            android:padding="@dimen/separation_distance_5"
+            android:layout_marginLeft="@dimen/separation_distance_50"
+            android:layout_centerVertical="true"
+            android:background="@drawable/background_et"
+            android:hint="@string/search_return_hint"
+            android:textSize="@dimen/text_size_16"
+            android:textColor="#666666"
+            android:textColorHint="#666666"
+            />
+
+        <Button
+            android:id="@+id/btn_clear"
+            android:layout_width="@dimen/separation_distance_22"
+            android:layout_height="@dimen/separation_distance_22"
+            android:layout_alignEnd="@+id/et_returnGoods"
+            android:layout_marginTop="@dimen/separation_distance_5"
+            android:layout_marginRight="@dimen/separation_distance_6"
+            android:layout_centerVertical="true"
+            android:background="@drawable/clear"
+            />
+
+        <Button
+            android:id="@+id/btn_search"
+            android:layout_width="@dimen/separation_distance_25"
+            android:layout_height="@dimen/separation_distance_25"
+            android:layout_toRightOf="@+id/et_returnGoods"
+            android:layout_marginLeft="@dimen/separation_distance_8"
+            android:layout_centerVertical="true"
+            android:background="@drawable/search"
+            />
+
+        <Button
+            android:id="@+id/btn_scan"
+            android:layout_width="@dimen/separation_distance_25"
+            android:layout_height="@dimen/separation_distance_25"
+            android:background="@drawable/scan"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/separation_distance_12"
+            />
+
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_orderInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@+id/tl_title_top"
+        android:layout_above="@+id/rl_bottom"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/separation_distance_8"
+            android:layout_marginLeft="@dimen/separation_distance_8"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/orderCode_return_tv"
+                android:textSize="@dimen/text_size_19"
+                android:textColor="@color/black_black_text_color"
+                />
+
+            <TextView
+                android:id="@+id/tv_orderCode"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/separation_distance_3"
+                android:textSize="@dimen/text_size_18"
+                />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/separation_distance_1"
+            android:layout_marginTop="@dimen/separation_distance_8"
+            android:background="@color/line_background"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/separation_distance_8"
+            android:layout_marginLeft="@dimen/separation_distance_8"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="订单日期:"
+                android:textSize="@dimen/text_size_19"
+                android:textColor="@color/black_black_text_color"
+                />
+
+            <TextView
+                android:id="@+id/tv_orderTime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/separation_distance_3"
+                android:textSize="@dimen/text_size_18"
+                />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/separation_distance_1"
+            android:layout_marginTop="@dimen/separation_distance_8"
+            android:background="@color/line_background"
+            />
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/separation_distance_5"
+            android:gravity="center_vertical"
+            >
+            <TextView
+                android:id="@+id/good_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/separation_distance_15"
+                android:layout_centerVertical="true"
+                android:text="商品名称"
+                android:gravity="center_vertical"
+                android:textColor="#808080"
+                />
+
+            <TextView
+                android:id="@+id/goods_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/good_name"
+                android:layout_marginLeft="@dimen/separation_distance_35"
+                android:layout_centerVertical="true"
+                android:text="商品价格"
+                android:gravity="center_vertical"
+                android:textColor="#808080"
+                />
+
+            <TextView
+                android:id="@+id/goods_canReturn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/goods_price"
+                android:layout_marginLeft="@dimen/separation_distance_30"
+                android:layout_centerVertical="true"
+                android:text="可退数量"
+                android:gravity="center_vertical"
+                android:textColor="#808080"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@+id/goods_canReturn"
+                android:layout_marginLeft="@dimen/separation_distance_30"
+                android:text="退货数量"
+                android:textColor="#808080"
+                />
+
+        </RelativeLayout>
+
+        <ListView
+            android:id="@+id/lv_goodsInfo_return"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+        </ListView>
+
+    </LinearLayout>
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/separation_distance_1"
+        android:background="@color/line_background"
+        android:layout_below="@+id/ll_orderInfo"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/separation_distance_5"
+        android:layout_marginTop="@dimen/separation_distance_5"
+        android:textColor="@color/red_text_color"
+        android:text="温馨提示: 退货之前，请您先选择要退款的商品"
+        android:layout_below="@+id/view"
+        />
+
+    <RelativeLayout
+        android:id="@+id/rl_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:layout_alignParentBottom="true"
+        >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="@dimen/separation_distance_30"
+            android:layout_centerHorizontal="true"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/payType_return_tv"
+                    android:textSize="@dimen/text_size_22"
+                    android:textColor="@color/black_black_text_color"
+                    />
+                <TextView
+                    android:id="@+id/payType_tv_return"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black_black_text_color"
+                    android:layout_marginLeft="@dimen/separation_distance_5"
+                    android:textSize="@dimen/text_size_20"
+                    />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/separation_distance_10"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="退款金额:"
+                    android:textSize="@dimen/text_size_22"
+                    android:textColor="@color/black_black_text_color"
+                    />
+                <TextView
+                    android:id="@+id/returnMoney_tv_return"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="0.00"
+                    android:textColor="@color/red_text_color"
+                    android:layout_marginLeft="@dimen/separation_distance_5"
+                    android:textSize="@dimen/text_size_20"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="元"
+                    android:textColor="@color/red_text_color"
+                    android:textSize="@dimen/text_size_20"
+                    />
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:gravity="center_horizontal"
+            android:layout_marginBottom="@dimen/separation_distance_30"
+            >
+
+            <Button
+                android:id="@+id/cancel_return"
+                android:layout_width="@dimen/separation_distance_120"
+                android:layout_height="@dimen/separation_distance_40"
+                android:background="@drawable/query_button_selector"
+                android:text="@string/cancel_return_btn"
+                android:textColor="@color/selector_set_button_text"
+                />
+
+            <Button
+                android:id="@+id/confirm_return"
+                android:layout_width="@dimen/separation_distance_120"
+                android:layout_height="@dimen/separation_distance_40"
+                android:layout_marginLeft="@dimen/separation_distance_30"
+                android:layout_toRightOf="@+id/cancel_return"
+                android:background="@drawable/query_button_selector"
+                android:text="@string/confirm_return_btn"
+                android:textColor="@color/selector_set_button_text"
+                />
+
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <android.inputmethodservice.KeyboardView
+            android:id="@+id/schemas_key_keyboard_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="@color/gray"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:keyBackground="@drawable/bg_keyboard_selector"
+            android:keyTextColor="@color/keyTextColor"
+            android:visibility="gone"
+            android:shadowRadius="0.5"
+            android:keyPreviewLayout="@layout/key_preview_layout"
+            />
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

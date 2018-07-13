@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/radioGroup"
+        android:background="@color/colorw"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:id="@+id/gsetsaleticket_lv_back"
+            android:layout_width="100dp"
+            android:onClick="onClick"
+            android:layout_height="match_parent"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true">
+
+            <ImageButton
+                android:id="@+id/getsa_back"
+                android:layout_width="10dp"
+                android:layout_height="17.5dp"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="17dp"
+                android:background="@drawable/back1" />
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:text="项目扣费"
+            android:textColor="@color/colorBlack"
+            android:textSize="20dp" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="3dp"
+        android:layout_marginRight="3dp"
+        android:background="#ff743e" />
+
+    <ListView
+        android:id="@+id/getslaeticket_lv"
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="@null">
+
+    </ListView>
+
+</LinearLayout>

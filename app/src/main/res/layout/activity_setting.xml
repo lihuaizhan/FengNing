@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:background="@color/colorw"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:text="设置"
+            android:textColor="@color/colorBlack"
+            android:textSize="20dp" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/relativeLayout">
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="50dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="线   上   款   台ID:"
+                        android:textColor="@color/colorBlack"
+                        android:textSize="@dimen/activity_goods_20" />
+
+                    <EditText
+                        android:id="@+id/y_edit_deviceCode"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1.2"
+                        android:hint="请输入线上款台ID" />
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/linearLayout10"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/linearLayout8"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textView"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="检 票 终 端 名 称 :"
+                        android:textColor="@color/colorBlack"
+                        android:textSize="@dimen/activity_goods_20" />
+
+                    <EditText
+                        android:id="@+id/setting_deviceName"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1.2"
+                        android:hint="请输入检票终端名称" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/linearLayout13"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/linearLayout10"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="售 票 终 端 名 称 :"
+                        android:textColor="@color/colorBlack"
+                        android:textSize="@dimen/activity_goods_20" />
+
+                    <EditText
+                        android:id="@+id/setting_S_deviceName"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1.2"
+                        android:hint="请输入售票终端名称" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/linearLayout13"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="小 票 打 印 张 数:"
+                        android:textColor="@color/colorBlack"
+                        android:textSize="@dimen/activity_goods_20" />
+
+                    <EditText
+                        android:id="@+id/ticket_printNum"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1.2"
+                        android:hint="请输入检票终端名称"
+                        android:inputType="number" />
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/sale_lv6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/sale_lv4"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="商品售卖终端名称:"
+                        android:textColor="@color/colorBlack"
+                        android:textSize="@dimen/text_size_19" />
+                    <EditText
+                        android:id="@+id/terminalName_scenicSpot"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1.2"
+                        android:hint="请输入售卖终端名称"
+                        android:singleLine="true" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/sale_lv4"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="餐饮售卖终端名称:"
+                        android:textColor="@color/colorBlack"
+                        android:textSize="@dimen/text_size_19" />
+
+                    <EditText
+                        android:id="@+id/food_terminalName_scenicSpot"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1.2"
+                        android:hint="请输入餐饮终端名称"
+                        android:singleLine="true" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/sale_lv6"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="一卡通 终端 名称:"
+                        android:textColor="@color/colorBlack"
+                        android:textSize="@dimen/text_size_19" />
+                    <EditText
+                        android:id="@+id/terminalName_OneCard"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1.2"
+                        android:hint="请输入一卡通终端名称"
+                        android:inputType="number"
+                        android:singleLine="true" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="是否   连续   刷卡:"
+                        android:textColor="@color/colorBlack"
+                        android:textSize="@dimen/text_size_19" />
+                    <CheckBox
+                        android:id="@+id/setting_radio_card"
+                        android:layout_width="0dp"
+                        android:text="是"
+                        android:checked="true"
+                        android:textSize="18sp"
+                        android:layout_weight="1.2"
+                        android:layout_height="match_parent" />
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/colorw"
+        android:gravity="center"
+        android:orientation="horizontal">
+        <RadioButton
+            android:id="@+id/setting_confirm"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:button="@null"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:text="确定"
+            android:textSize="28sp" />
+        <RadioButton
+            android:id="@+id/setting_cancel"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:button="@null"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:text="取消"
+            android:textSize="28sp" />
+    </RadioGroup>
+</RelativeLayout>

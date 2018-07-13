@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.TeamActivity">
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/colorw"
+        android:orientation="horizontal"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true">
+
+        <LinearLayout
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:onClick="onViewClicked"
+            android:id="@+id/team_back"
+            android:layout_centerVertical="true"
+            >
+            <ImageButton
+                android:layout_width="10dp"
+                android:layout_height="17.5dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="15dp"
+                android:layout_alignParentTop="true"
+                android:background="@drawable/back1" />
+
+        </LinearLayout>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:text="团队换票"
+            android:textColor="@color/colorBlack"
+            android:textSize="20dp" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@id/relativeLayout"
+    >
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_marginLeft="12dp"
+            android:layout_marginRight="12dp"
+            >
+            <EditText
+                android:id="@+id/edit_Id_Team"
+                android:layout_width="0dp"
+                android:layout_height="35dp"
+                android:layout_weight="5"
+                android:textSize="14sp"
+                android:textColor="#000000"
+                android:background="@drawable/line"
+                android:textColorHint="#BFBFBF"
+                android:hint="请输入订单号"
+                android:padding="8dp"
+
+                />
+
+            <Button
+                android:id="@+id/btn_confirm_Team"
+                android:layout_width="0dp"
+                android:layout_height="35dp"
+                android:onClick="onViewClicked"
+               android:layout_weight="1"
+                android:layout_marginLeft="2dp"
+                android:background="@drawable/query_button_selector"
+                android:textColor="#FFFFFF"
+                android:padding="5dp"
+                android:textSize="14sp"
+                android:text="查询"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="40dp"
+            android:gravity="center"
+            android:orientation="horizontal"
+            >
+
+            <ListView
+                android:id="@+id/lv_info_team"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                >
+
+            </ListView>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="#017FFE"
+        >
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:background="@color/colorw">
+
+            <RadioButton
+                android:id="@+id/rb_pay_teamOrder"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:button="@null"
+                android:onClick="onViewClicked"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:text="确定"
+                android:textColor="#000"
+                android:textSize="18sp"/>
+
+            <RadioButton
+                android:id="@+id/rb_scan_teamOrder"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:button="@null"
+                android:gravity="center"
+                android:onClick="onViewClicked"
+                android:layout_weight="1"
+                android:text="扫描"
+                android:textColor="#000"
+                android:textSize="18sp"/>
+
+            <RadioButton
+                android:id="@+id/rb_cancel_teamOrder"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:onClick="onViewClicked"
+                android:layout_weight="1"
+                android:button="@null"
+                android:text="取消"
+                android:textColor="#000"
+                android:textSize="18sp"/>
+
+        </RadioGroup>
+    </RelativeLayout>
+</RelativeLayout>

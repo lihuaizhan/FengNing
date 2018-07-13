@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.tps900.tps900">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.FLASHLIGHT" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="com.android.browser.permission.READ_HISTORY_BOOKMARKS" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.MANAGE_NEWLAND" />
+    <uses-permission android:name="android.permission.MANAGE_NEWLANDUART3" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.SYSTEM_OVERLAY_WINDOW" />
+    <uses-permission android:name="android.permission.DOWNLOAD_WITHOUT_NOTIFICATION." />
+    <!-- 往sdcard中写入数据的权限 -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <!-- 在sdcard中创建/删除文件的权限 -->
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+
+    <!-- 蓝牙分享所需的权限 -->
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <application
+        android:name=".car.App"
+        android:allowBackup="true"
+        android:icon="@drawable/appname"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".activity.LoginActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.SettingActivity"
+
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.GetSaleTicketActivity"
+
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.TicketCodeActivity"
+
+            android:screenOrientation="portrait" />
+        <activity android:name=".activity.CodeActivty" />
+        <activity android:name=".activity.OneCardInfoActivity" />
+        <activity android:name=".activity.RetailActivity_XS" />
+        <activity android:name=".activity.RetailActivity" />
+        <activity android:name=".activity.PayActivitys" />
+        <activity android:name=".activity.ProjectFeeActivity" />
+        <activity android:name=".activity.YearCodeActivty" />
+        <activity android:name=".activity.CunPayActivity" />
+        <activity android:name=".activity.PayActivity_XS" />
+        <activity
+            android:name=".activity.SearchActivity"
+
+            android:theme="@style/Theme.FloatActivity" />
+        <activity android:name=".activity.ReturnActivity" />
+        <activity android:name=".activity.FormActivity" />
+        <activity
+            android:name=".activity.TeamActivity"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustPan" />
+        <activity
+            android:name=".activity.Team_PayActivity"
+            android:theme="@style/TeamPayNoTitleDialog" />
+        <activity android:name=".activity.DisOrderChangeTicketActivity" />
+        <activity android:name=".updata.UpdateEditionActivity" />
+
+        <service android:name=".updata.DownLoadVersionService" />
+
+        <activity android:name=".activity.MainActivity" />
+        <activity android:name=".activity.CodeBalanceActivity" />
+        <activity android:name=".activity.ImgShowActivity" />
+        <activity android:name=".activity.TicketVerificationActivity" />
+        <activity android:name=".activity.TestActivity" />
+        <activity
+            android:name=".activity.TicketVerScanActivity"
+            android:windowSoftInputMode="adjustPan" />
+        <activity android:name=".activity.FoodActivity" />
+        <activity android:name=".activity.newfood.New_FoodActivity" />
+        <activity android:name=".activity.Pay_foodActivity" />
+        <activity android:name=".activity.FoodFormActivity" />
+        <activity android:name=".activity.CtnCreditCardActivity" />
+        <activity android:name=".activity.SltTableActivity" />
+        <activity
+            android:name=".activity.SltPeopleActivity"
+            android:theme="@style/NoTitleDialog" />
+        <activity
+            android:name=".activity.InStockActivity"
+            android:theme="@style/NoTitleDialog" />
+        <activity
+            android:name=".activity.newfood.New_SltPeopleActivity"
+            android:theme="@style/NoTitleDialog" />
+        <activity
+            android:name=".activity.newfood.NewSltTableActivity"
+            android:theme="@style/NoTitleDialog" />
+        <activity android:name=".activity.newfood.New_Pay_foodActivity" />
+        <activity android:name=".activity.newfood.NewFoodPayActivity" />
+        <activity android:name=".activity.newfood.FoodReturnActivity" />
+        <service
+            android:name=".service.NetworkStateService"
+            android:enabled="true" />
+    </application>
+
+</manifest>

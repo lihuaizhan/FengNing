@@ -1,0 +1,707 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.tps900.tps900.activity.FormActivity">
+
+    <LinearLayout
+        android:id="@+id/ll_head"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/separation_distance_48"
+        android:background="@color/colorw"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="查询报表"
+            android:textColor="@color/colorBlack"
+            android:textSize="@dimen/separation_distance_22" />
+
+    </LinearLayout>
+
+    <ScrollView
+        android:id="@+id/sv_middle"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/ll_bottom_form"
+        android:layout_below="@+id/ll_head"
+        android:fillViewport="true">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/ll_counterAndIDAndName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/separation_distance_5"
+                android:layout_marginTop="@dimen/separation_distance_5"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="收银柜台:"
+                        android:textColor="#000000"
+                        android:textSize="@dimen/text_size_16sp" />
+
+                    <TextView
+                        android:id="@+id/tv_counter_form"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/separation_distance_5"
+                        android:textColor="#333333" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/separation_distance_5"
+                android:layout_marginTop="@dimen/separation_distance_5"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="收银员ID:"
+                        android:textColor="#000000"
+                        android:textSize="@dimen/text_size_16sp" />
+
+                    <TextView
+                        android:id="@+id/tv_sellerID_form"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/separation_distance_5"
+                        android:textColor="#333333" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/separation_distance_20">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="收银员:"
+                        android:textColor="#000000"
+                        android:textSize="@dimen/text_size_16sp" />
+
+                    <TextView
+                        android:id="@+id/tv_sellerName_form"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/separation_distance_5"
+                        android:textColor="#333333" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_sellAndPrint"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/ll_counterAndIDAndName"
+                android:layout_marginLeft="@dimen/separation_distance_5"
+                android:layout_marginTop="@dimen/separation_distance_5"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="销售日期:"
+                        android:textColor="#000000"
+                        android:textSize="@dimen/text_size_16sp" />
+
+                    <TextView
+                        android:id="@+id/tv_sellDate_form"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/separation_distance_5"
+                        android:textColor="#333333" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/separation_distance_16">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="打印日期:"
+                        android:textColor="#000000"
+                        android:textSize="@dimen/text_size_16sp" />
+
+                    <TextView
+                        android:id="@+id/tv_printDate_form"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:textColor="#333333" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <View
+                android:id="@+id/firstView"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_below="@+id/ll_sellAndPrint"
+                android:layout_marginTop="@dimen/separation_distance_3"
+                android:background="#666666" />
+
+            <TextView
+                android:id="@+id/tv_consumerPay"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/firstView"
+                android:layout_marginLeft="@dimen/separation_distance_5"
+                android:layout_marginTop="@dimen/separation_distance_3"
+                android:text="消费支付"
+                android:textColor="#000000"
+                android:textSize="@dimen/text_size_16sp" />
+
+            <View
+                android:id="@+id/secondView"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_below="@+id/tv_consumerPay"
+                android:layout_marginTop="@dimen/separation_distance_3"
+                android:background="#666666" />
+
+            <LinearLayout
+                android:id="@+id/ll_payTypeAndCountAndmoney"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/secondView"
+                android:layout_marginLeft="@dimen/separation_distance_5"
+                android:layout_marginTop="@dimen/separation_distance_3"
+                android:orientation="horizontal"
+                android:weightSum="3">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="支付类型"
+                    android:textColor="#000000" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="支付金额(元)"
+                    android:textColor="#000000" />
+
+
+            </LinearLayout>
+
+
+            <View
+                android:id="@+id/thirdView"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_below="@+id/ll_payTypeAndCountAndmoney"
+                android:layout_marginTop="@dimen/separation_distance_3"
+                android:background="#666666" />
+
+            <com.example.tps900.tps900.view.GalasysListView
+                android:id="@+id/lv_payType_consumer_form"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/thirdView">
+
+            </com.example.tps900.tps900.view.GalasysListView>>
+
+            <LinearLayout
+                android:id="@+id/ll_all_consumer_form"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/lv_payType_consumer_form"
+                android:layout_marginLeft="@dimen/separation_distance_5"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="合计:"
+                        android:textColor="#000000"
+                        android:textSize="@dimen/text_size_16sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="" />
+
+                    <TextView
+                        android:id="@+id/tv_allMoney_consumer_form"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/red_text_color" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="元"
+                        android:textColor="@color/red_text_color" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            //-----------
+
+            <View
+                android:id="@+id/fourthView"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_below="@+id/ll_all_consumer_form"
+                android:layout_marginTop="@dimen/separation_distance_3"
+                android:background="#666666" />
+
+            <TextView
+                android:id="@+id/tv_returnPay"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/fourthView"
+                android:layout_marginLeft="@dimen/separation_distance_5"
+                android:layout_marginTop="@dimen/separation_distance_3"
+                android:text="退款"
+                android:textColor="#000000" />
+
+            <View
+                android:id="@+id/fifthView"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_below="@+id/tv_returnPay"
+                android:layout_marginTop="@dimen/separation_distance_3"
+                android:background="#666666" />
+
+            <LinearLayout
+                android:id="@+id/ll_payTypeAndCountAndMoney_return"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/fifthView"
+                android:layout_marginLeft="@dimen/separation_distance_5"
+                android:layout_marginTop="@dimen/separation_distance_3"
+                android:orientation="horizontal"
+                android:weightSum="3">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="退款类型"
+                    android:textColor="#000000" />
+
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="退款金额(元)"
+                    android:textColor="#000000" />
+
+
+            </LinearLayout>
+
+
+            <View
+                android:id="@+id/sixthView"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_below="@+id/ll_payTypeAndCountAndMoney_return"
+                android:layout_marginTop="@dimen/separation_distance_3"
+                android:background="#666666" />
+
+            <com.example.tps900.tps900.view.GalasysListView
+                android:id="@+id/lv_payType_return_form"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/sixthView">
+
+            </com.example.tps900.tps900.view.GalasysListView>
+
+            <LinearLayout
+                android:id="@+id/ll_all_return_form"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/lv_payType_return_form"
+                android:layout_marginLeft="@dimen/separation_distance_5"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="合计:"
+                        android:textColor="#000000"
+                        android:textSize="@dimen/text_size_16sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="" />
+
+                    <TextView
+                        android:id="@+id/tv_allMoney_return_form"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/red_text_color" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="元"
+                        android:textColor="@color/red_text_color" />
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            //------------------------------
+
+            <View
+                android:id="@+id/sevenView"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_below="@+id/ll_all_return_form"
+                android:layout_marginTop="@dimen/separation_distance_3"
+                android:background="#666666" />
+
+            <TextView
+                android:id="@+id/tv_currentCount_form"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/sevenView"
+                android:layout_marginLeft="@dimen/separation_distance_5"
+                android:layout_marginTop="@dimen/separation_distance_3"
+                android:text="当日合计"
+                android:textColor="#000000"
+                android:textSize="@dimen/text_size_16sp" />
+
+            <View
+                android:id="@+id/eightView"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_below="@+id/tv_currentCount_form"
+                android:layout_marginTop="@dimen/separation_distance_3"
+                android:background="#666666" />
+
+            <LinearLayout
+                android:id="@+id/ll_payTypeAndCountAndMoney_current"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/eightView"
+                android:layout_marginLeft="@dimen/separation_distance_5"
+                android:layout_marginTop="@dimen/separation_distance_3"
+                android:orientation="horizontal"
+                android:weightSum="3">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="支付类型"
+                    android:textColor="#000000" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="支付金额(元)"
+                    android:textColor="#000000" />
+
+
+            </LinearLayout>
+
+
+            <View
+                android:id="@+id/ninthView"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_below="@+id/ll_payTypeAndCountAndMoney_current"
+                android:layout_marginTop="@dimen/separation_distance_3"
+                android:background="#666666" />
+
+            <com.example.tps900.tps900.view.GalasysListView
+                android:id="@+id/lv_payTypeAndCountAndMoney_current"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/ninthView">
+
+            </com.example.tps900.tps900.view.GalasysListView>
+
+            <LinearLayout
+                android:id="@+id/linearLayout6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/lv_payTypeAndCountAndMoney_current"
+                android:layout_marginLeft="@dimen/separation_distance_5"
+
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="合计:"
+                        android:textColor="#000000"
+                        android:textSize="@dimen/text_size_16sp"
+
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=""
+
+                        />
+
+                    <TextView
+                        android:id="@+id/tv_allMoney_current_form"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/red_text_color" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="元"
+                        android:textColor="@color/red_text_color" />
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/ticket_lv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/linearLayout6"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="17dp"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="收银柜台:"
+                            android:textColor="#000000"
+                            android:textSize="@dimen/text_size_16sp" />
+
+                        <TextView
+                            android:id="@+id/tv_counter_form1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/separation_distance_5"
+                            android:textColor="#333333" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/activity_goods_20">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="收银员ID:"
+                            android:textColor="#000000"
+                            android:textSize="@dimen/text_size_16sp" />
+
+                        <TextView
+                            android:id="@+id/tv_sellerID_form1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/separation_distance_5"
+                            android:textColor="#333333" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/separation_distance_20">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="收银员:"
+                            android:textColor="#000000"
+                            android:textSize="@dimen/text_size_16sp" />
+
+                        <TextView
+                            android:id="@+id/tv_sellerName_form1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/separation_distance_5"
+                            android:textColor="#333333" />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="55dp"
+                    android:layout_marginBottom="@dimen/activity_goods_10"
+                    android:layout_marginTop="@dimen/activity_goods_10"
+                    android:background="@color/colorWhite"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <com.example.tps900.tps900.view.magicindicator.MagicIndicator
+                        android:id="@+id/magic_indicator6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center" />
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="800dp"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <android.support.v4.view.ViewPager
+                        android:id="@+id/view_pager"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent" />
+
+
+                </LinearLayout>
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/ll_fail"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/ll_bottom_form"
+        android:layout_below="@id/ll_head"
+        android:gravity="center"
+        android:visibility="gone">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/img_fail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/fail" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/img_fail"
+                android:layout_centerHorizontal="true"
+                android:text="加载数据失败" />
+
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    //--------------------------
+
+    <LinearLayout
+        android:id="@+id/ll_bottom_form"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/separation_distance_48"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_back_form"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/selector_set_button"
+                android:text="返回"
+                android:textColor="@color/colorBlack"
+                android:textSize="@dimen/separation_distance_18" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="@dimen/separation_distance_48"
+            android:background="@color/white_text_color" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_print_form"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/selector_set_button"
+                android:text="打印"
+                android:textColor="@color/colorBlack"
+                android:textSize="@dimen/separation_distance_18"
+
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

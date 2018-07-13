@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.tps900.tps900.activity.PayActivity_XS">
+
+
+    <RelativeLayout
+        android:id="@+id/rl_title"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/separation_distance_50"
+        android:layout_alignParentTop="true"
+        android:gravity="center"
+        android:background="@color/colorw"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/title_pay_tv"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_size_22"
+            />
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/rl_shouldMoney"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/separation_distance_70"
+        android:layout_below="@+id/rl_title"
+        android:gravity="center"
+        >
+        <TextView
+            android:id="@+id/text_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/shouldMoney_pay_tv"
+            android:textSize="@dimen/text_size_22"
+            android:textColor="@color/black_black_text_color"
+            />
+
+        <!--<ImageView-->
+        <!--android:id="@+id/img_yuan"-->
+        <!--android:layout_width="20dp"-->
+        <!--android:layout_height="20dp"-->
+        <!--android:layout_marginLeft="@dimen/separation_distance_12"-->
+        <!--android:layout_toRightOf="@+id/text_tv"-->
+        <!--android:layout_marginTop="@dimen/separation_distance_3"-->
+        <!--android:src="@drawable/yuan"-->
+        <!--/>-->
+
+        <TextView
+            android:id="@+id/shouldMoney_tv"
+            android:layout_toRightOf="@+id/text_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/separation_distance_10"
+            android:text="0.00"
+            android:textSize="@dimen/text_size_20"
+            android:textColor="@color/red_text_color"
+            />
+
+        <TextView
+            android:layout_toRightOf="@+id/shouldMoney_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="元"
+            android:textSize="@dimen/text_size_20"
+            android:textColor="@color/red_text_color"
+            />
+
+    </RelativeLayout>
+
+    <View
+        android:id="@+id/section_view"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/separation_distance_20"
+        android:layout_below="@+id/rl_shouldMoney"
+        android:background="@color/line_background"
+        />
+
+    <LinearLayout
+        android:id="@+id/payType"
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:layout_below="@+id/section_view"
+        android:orientation="horizontal"
+        android:weightSum="5"
+        >
+<RelativeLayout
+    android:layout_width="0dp"
+    android:layout_height="match_parent"
+    android:layout_weight="2"
+    >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="付款方式"
+        android:textSize="17sp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="40dp"
+        android:textColor="@color/black_black_text_color"
+        />
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="  会员支付"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="40dp"
+        android:id="@+id/vip_flag"
+        style="@style/CustomCheckboxTheme"
+        />
+</RelativeLayout>
+
+
+        <View
+            android:layout_width="@dimen/separation_distance_1"
+            android:layout_height="220dp"
+            android:background="@color/line_background"
+            />
+
+        <ListView
+            android:id="@+id/lv_payType"
+            android:layout_width="0dp"
+            android:layout_height="220dp"
+            android:layout_weight="3"
+            >
+
+
+        </ListView>
+
+
+
+    </LinearLayout>
+
+    <View
+        android:id="@+id/section"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/separation_distance_20"
+        android:layout_below="@+id/payType"
+        android:background="@color/line_background"
+        />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/section"
+        android:layout_marginTop="@dimen/separation_distance_45"
+        android:gravity="center_horizontal"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/actualMoney_pay_tv"
+            android:textSize="@dimen/text_size_22"
+            />
+        <TextView
+            android:id="@+id/actualMoney"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/separation_distance_3"
+            android:text="0.00"
+            android:textColor="@color/red_text_color"
+            android:textSize="@dimen/text_size_20"
+
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/separation_distance_3"
+            android:text="元"
+            android:textColor="@color/red_text_color"
+            android:textSize="@dimen/text_size_20"
+            />
+
+
+        <!--<TextView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginLeft="@dimen/separation_distance_25"-->
+        <!--android:text="找零金额:"-->
+        <!--/>-->
+
+        <!--<TextView-->
+        <!--android:id="@+id/returnMoney"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginLeft="@dimen/separation_distance_3"-->
+        <!--android:text="0.00"-->
+        <!--android:textColor="@color/red_text_color"-->
+
+        <!--/>-->
+        <!--<TextView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginLeft="@dimen/separation_distance_3"-->
+        <!--android:text="元"-->
+        <!--android:textColor="@color/red_text_color"-->
+
+        <!--/>-->
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:gravity="center_horizontal"
+        android:layout_marginBottom="@dimen/separation_distance_50"
+        >
+
+        <Button
+            android:id="@+id/btn_cancel_order"
+            android:layout_width="240dp"
+            android:layout_height="40dp"
+            android:background="@drawable/apily_button_bg"
+            android:text="修改订单"
+            android:textColor="@color/selector_set_button_text"
+            />
+
+        <Button
+            android:id="@+id/btn_confirm_order"
+            android:layout_width="120dp"
+            android:layout_height="40dp"
+            android:visibility="gone"
+            android:layout_marginLeft="@dimen/separation_distance_12"
+            android:background="@drawable/query_button_selector"
+            android:text="确认支付"
+            android:textColor="@color/selector_set_button_text"
+            />
+
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

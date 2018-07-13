@@ -1,0 +1,411 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/radioGroup"
+        android:background="@color/colorw"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/ticket_lv_back"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_centerVertical="true"
+            android:onClick="onClick">
+
+            <ImageButton
+                android:layout_width="10dp"
+                android:layout_height="17.5dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/back1" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:text="散客兑票"
+            android:textColor="@color/colorBlack"
+            android:textSize="20dp" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout17"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/relativeLayout"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/ticket_et_ticketCode"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="15dp"
+            android:layout_weight="2.65"
+            android:background="@drawable/line"
+            android:hint="请输入门票兑换码"
+            android:onClick="onClick"
+            android:paddingLeft="5dp"
+            android:textColor="#000"
+            android:textSize="16sp" />
+
+        <ImageView
+            android:id="@+id/ticket_img_deleteCode"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:background="@drawable/delete2"
+            android:onClick="onClick" />
+
+        <Button
+            android:id="@+id/ticket_QueryTicket"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_weight="1"
+            android:background="@drawable/query_button_selector"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:text="查询"
+            android:textColor="#000"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lv_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linearLayout17"
+        android:layout_toEndOf="@+id/radioGroup"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/linearLayout16"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/D_lv"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="门  票  名  称 :"
+                android:textColor="#000"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/ticket_name"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:gravity="center"
+                android:text=" "
+                android:textColor="#000"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/linearLayout17"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="门  票  价  格 :"
+                android:textColor="#000"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/ticket_price"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:gravity="center"
+                android:text=" "
+                android:textColor="#000"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout2"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/linearLayout16"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.99"
+                android:gravity="center"
+                android:text="入园开始日期:"
+                android:textColor="#000"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/start_time"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:gravity="center"
+                android:text=" "
+                android:textColor="#000"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout5"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/linearLayout2"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="入园结束日期:"
+                android:textColor="#000"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/end_time"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:gravity="center"
+                android:text=" "
+                android:textColor="#000"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout3"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/linearLayout5"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="实际入园人数:"
+                android:textColor="#000"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/ticket_personNum"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:gravity="center"
+                android:text=" "
+                android:textColor="#000"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+    <!-- 订单布局-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lv_info"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="580dp"
+            android:layout_height="500dp"
+            android:layout_marginBottom="20dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="64dp">
+
+                <CheckBox
+                    android:id="@+id/all_chekbox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginRight="30dp"
+                    android:gravity="center"
+                    android:onClick="onClick"
+                    android:text="全选" />
+            </LinearLayout>
+
+            <ExpandableListView
+                android:id="@+id/fm_pn_exListView"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:childIndicator="@null"
+                android:groupIndicator="@null">
+
+            </ExpandableListView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="64dp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="20dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/fm_select"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="10dp"
+                        android:text="已选订单:" />
+
+                    <TextView
+                        android:id="@+id/fm_phone_yx_OderNum"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="0" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/fm_orderticNum"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="10dp"
+                        android:text="共选张数" />
+
+                    <TextView
+                        android:id="@+id/fm_phone_yxTicketNum"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="" />
+
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_bottom_form"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/separation_distance_48"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/ticket_btn_bor"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/selector_set_button"
+            android:onClick="onClick"
+            android:text="扫描"
+            android:textColor="@color/colorBlack"
+            android:textSize="@dimen/separation_distance_18" />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="@dimen/separation_distance_48"
+            android:background="@color/white_text_color" />
+
+        <Button
+            android:id="@+id/ticket_btn_idcard"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/selector_set_button"
+            android:onClick="onClick"
+            android:text="身份证取票"
+            android:textColor="@color/colorBlack"
+            android:textSize="@dimen/separation_distance_18" />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="@dimen/separation_distance_48"
+            android:background="@color/white_text_color" />
+
+        <Button
+            android:id="@+id/ticket_btn_comit"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/selector_set_button"
+            android:onClick="onClick"
+            android:text="确定"
+            android:textColor="@color/colorBlack"
+            android:textSize="@dimen/separation_distance_18"
+
+            />
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <android.inputmethodservice.KeyboardView
+            android:id="@+id/schemas_key_keyboard_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="#bdbdbd"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:shadowRadius="0.5"
+            android:keyBackground="@drawable/key_selece"
+            android:keyPreviewLayout="@layout/key_layout"
+            android:keyTextColor="#424242"
+            android:visibility="gone" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="vertical">
+
+
+    <include layout="@layout/view_w" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/numberKeyboard_1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/jianpan_selector"
+            android:text="1"
+            android:textSize="@dimen/activity_goods_22" />
+
+        <include layout="@layout/view_h" />
+
+        <Button
+            android:id="@+id/numberKeyboard_2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/jianpan_selector"
+            android:text="2"
+            android:textSize="@dimen/activity_goods_22" />
+
+        <include layout="@layout/view_h" />
+
+        <Button
+            android:id="@+id/numberKeyboard_3"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/jianpan_selector"
+            android:text="3"
+            android:textSize="@dimen/activity_goods_22" />
+
+    </LinearLayout>
+
+    <include layout="@layout/view_w" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/numberKeyboard_4"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/jianpan_selector"
+            android:text="4"
+            android:textSize="@dimen/activity_goods_22" />
+
+        <include layout="@layout/view_h" />
+
+        <Button
+            android:id="@+id/numberKeyboard_5"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/jianpan_selector"
+            android:text="5"
+            android:textSize="@dimen/activity_goods_22" />
+
+        <include layout="@layout/view_h" />
+
+        <Button
+            android:id="@+id/numberKeyboard_6"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/jianpan_selector"
+            android:text="6"
+            android:textSize="@dimen/activity_goods_22" />
+
+    </LinearLayout>
+
+    <include layout="@layout/view_w" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/numberKeyboard_7"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/jianpan_selector"
+            android:text="7"
+            android:textSize="@dimen/activity_goods_22" />
+
+        <include layout="@layout/view_h" />
+
+        <Button
+            android:id="@+id/numberKeyboard_8"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/jianpan_selector"
+            android:text="8"
+            android:textSize="@dimen/activity_goods_22" />
+
+        <include layout="@layout/view_h" />
+
+        <Button
+            android:id="@+id/numberKeyboard_9"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/jianpan_selector"
+            android:text="9"
+            android:textSize="@dimen/activity_goods_22" />
+
+
+    </LinearLayout>
+
+    <include layout="@layout/view_w" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/numberKeyboard_0"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:background="@drawable/jianpan_selector"
+            android:text="0"
+            android:textSize="@dimen/activity_goods_22" />
+
+
+        <include layout="@layout/view_h" />
+
+        <Button
+            android:id="@+id/numberKeyboard_quxiao"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:layout_weight="1"
+            android:background="@drawable/jianpan2_selector"
+            android:text="取消"
+            android:textSize="@dimen/activity_goods_22" />
+
+        <Button
+            android:id="@+id/btn_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/numberKeyboard_7"
+            android:layout_alignTop="@id/numberKeyboard_7"
+            android:layout_toRightOf="@id/numberKeyboard_9"
+            android:background="@drawable/jianpan_selector"
+            android:text="清除"
+            android:visibility="gone" />
+    </LinearLayout>
+</LinearLayout>

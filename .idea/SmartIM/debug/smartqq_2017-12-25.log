@@ -1,0 +1,1096 @@
+2017-12-25 13:59:43.672 [Thread-176] INFO  com.scienjus.smartqq.client.SmartQQApi -
+				开始获取二维码
+2017-12-25 13:59:43.826 [Thread-176] INFO  com.scienjus.smartqq.client.SmartQQApi -
+				二维码已保存在 D:\SVNWork_zxh\code\PDAXianShang\.idea\SmartIM\smartqq.jpg 文件中，请打开手机QQ并扫描二维码
+2017-12-25 13:59:43.827 [Thread-176] DEBUG com.scienjus.smartqq.client.SmartQQApi -
+				等待扫描二维码
+2017-12-25 14:00:00.021 [Thread-176] INFO  com.scienjus.smartqq.client.SmartQQApi -
+				正在登录，请稍后
+2017-12-25 14:00:00.021 [Thread-176] INFO  com.scienjus.smartqq.client.SmartQQApi -
+				开始获取ptwebqq
+2017-12-25 14:00:00.161 [Thread-176] INFO  com.scienjus.smartqq.client.SmartQQApi -
+				开始获取vfwebqq
+2017-12-25 14:00:00.533 [Thread-176] INFO  com.scienjus.smartqq.client.SmartQQApi -
+				开始获取uin和psessionid
+2017-12-25 14:00:00.657 [Thread-176] DEBUG com.scienjus.smartqq.client.SmartQQApi -
+				开始获取好友状态
+2017-12-25 14:00:00.802 [Thread-177] INFO  com.scienjus.smartqq.client.SmartQQApi -
+				开始获取登录用户信息
+2017-12-25 14:00:00.954 [Thread-177] INFO  com.scienjus.smartqq.client.SmartQQApi -
+				开始获取好友列表
+2017-12-25 14:00:01.301 [Thread-177] INFO  com.scienjus.smartqq.client.SmartQQApi -
+				开始获取群列表
+2017-12-25 14:00:04.439 [Thread-177] INFO  com.scienjus.smartqq.client.SmartQQApi -
+				开始获取讨论组列表
+2017-12-25 14:00:04.865 [Thread-177] INFO  com.scienjus.smartqq.client.SmartQQApi -
+				开始获取最近会话列表
+2017-12-25 14:00:14.967 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 14:00:17.336 [Thread-178] INFO  com.scienjus.smartqq.client.SmartQQApi -
+				开始获取群资料
+2017-12-25 14:01:19.010 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 14:01:33.857 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 14:01:44.234 [Thread-178] INFO  com.scienjus.smartqq.client.SmartQQApi -
+				开始获取群资料
+2017-12-25 14:02:56.805 [Thread-179] DEBUG com.scienjus.smartqq.client.SmartQQApi -
+				开始发送群消息
+2017-12-25 14:02:57.166 [Thread-179] DEBUG com.scienjus.smartqq.client.SmartQQApi -
+				发送成功
+2017-12-25 14:03:14.245 [Thread-180] DEBUG com.scienjus.smartqq.client.SmartQQApi -
+				开始发送群消息
+2017-12-25 14:03:14.395 [Thread-180] DEBUG com.scienjus.smartqq.client.SmartQQApi -
+				发送成功
+2017-12-25 14:03:48.122 [Thread-181] DEBUG com.scienjus.smartqq.client.SmartQQApi -
+				开始发送群消息
+2017-12-25 14:03:48.409 [Thread-181] DEBUG com.scienjus.smartqq.client.SmartQQApi -
+				发送成功
+2017-12-25 14:03:58.475 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 14:04:54.474 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 14:06:22.073 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 14:06:49.210 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 14:07:00.899 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 14:07:40.646 [Thread-178] INFO  com.scienjus.smartqq.client.SmartQQApi -
+				开始获取群资料
+2017-12-25 14:08:10.624 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 14:10:03.777 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 14:12:15.612 [Thread-182] DEBUG com.scienjus.smartqq.client.SmartQQApi -
+				开始发送消息
+2017-12-25 14:12:16.009 [Thread-182] DEBUG com.scienjus.smartqq.client.SmartQQApi -
+				发送成功
+2017-12-25 14:12:24.593 [Thread-183] DEBUG com.scienjus.smartqq.client.SmartQQApi -
+				开始发送消息
+2017-12-25 14:12:24.874 [Thread-183] DEBUG com.scienjus.smartqq.client.SmartQQApi -
+				发送成功
+2017-12-25 14:12:32.277 [Thread-184] DEBUG com.scienjus.smartqq.client.SmartQQApi -
+				开始发送消息
+2017-12-25 14:12:32.493 [Thread-184] DEBUG com.scienjus.smartqq.client.SmartQQApi -
+				发送成功
+2017-12-25 14:12:35.880 [Thread-185] DEBUG com.scienjus.smartqq.client.SmartQQApi -
+				开始发送消息
+2017-12-25 14:12:35.967 [Thread-185] DEBUG com.scienjus.smartqq.client.SmartQQApi -
+				发送成功
+2017-12-25 14:12:44.226 [Thread-186] DEBUG com.scienjus.smartqq.client.SmartQQApi -
+				开始发送消息
+2017-12-25 14:12:44.493 [Thread-186] DEBUG com.scienjus.smartqq.client.SmartQQApi -
+				发送成功
+2017-12-25 14:13:01.121 [Thread-187] DEBUG com.scienjus.smartqq.client.SmartQQApi -
+				开始发送消息
+2017-12-25 14:13:01.279 [Thread-187] DEBUG com.scienjus.smartqq.client.SmartQQApi -
+				发送成功
+2017-12-25 14:13:09.151 [Thread-188] DEBUG com.scienjus.smartqq.client.SmartQQApi -
+				开始发送消息
+2017-12-25 14:13:09.504 [Thread-188] DEBUG com.scienjus.smartqq.client.SmartQQApi -
+				发送成功
+2017-12-25 14:13:29.055 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 14:13:35.272 [Thread-189] DEBUG com.scienjus.smartqq.client.SmartQQApi -
+				开始发送消息
+2017-12-25 14:13:35.671 [Thread-189] DEBUG com.scienjus.smartqq.client.SmartQQApi -
+				发送成功
+2017-12-25 14:13:43.042 [Thread-190] DEBUG com.scienjus.smartqq.client.SmartQQApi -
+				开始发送消息
+2017-12-25 14:13:43.353 [Thread-190] DEBUG com.scienjus.smartqq.client.SmartQQApi -
+				发送成功
+2017-12-25 14:13:47.937 [Thread-191] DEBUG com.scienjus.smartqq.client.SmartQQApi -
+				开始发送消息
+2017-12-25 14:13:48.075 [Thread-191] DEBUG com.scienjus.smartqq.client.SmartQQApi -
+				发送成功
+2017-12-25 14:13:58.117 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 14:14:04.983 [Thread-192] DEBUG com.scienjus.smartqq.client.SmartQQApi -
+				开始发送消息
+2017-12-25 14:14:05.188 [Thread-192] DEBUG com.scienjus.smartqq.client.SmartQQApi -
+				发送成功
+2017-12-25 14:14:48.383 [Thread-193] DEBUG com.scienjus.smartqq.client.SmartQQApi -
+				开始发送消息
+2017-12-25 14:14:48.631 [Thread-193] DEBUG com.scienjus.smartqq.client.SmartQQApi -
+				发送成功
+2017-12-25 14:15:09.238 [Thread-194] DEBUG com.scienjus.smartqq.client.SmartQQApi -
+				开始发送消息
+2017-12-25 14:15:09.556 [Thread-194] DEBUG com.scienjus.smartqq.client.SmartQQApi -
+				发送成功
+2017-12-25 14:15:24.179 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				timeout
+2017-12-25 14:15:41.621 [Thread-195] DEBUG com.scienjus.smartqq.client.SmartQQApi -
+				开始发送消息
+2017-12-25 14:15:42.997 [Thread-195] DEBUG com.scienjus.smartqq.client.SmartQQApi -
+				发送成功
+2017-12-25 14:15:49.803 [Thread-196] DEBUG com.scienjus.smartqq.client.SmartQQApi -
+				开始发送消息
+2017-12-25 14:15:50.176 [Thread-196] DEBUG com.scienjus.smartqq.client.SmartQQApi -
+				发送成功
+2017-12-25 14:15:54.858 [Thread-197] DEBUG com.scienjus.smartqq.client.SmartQQApi -
+				开始发送消息
+2017-12-25 14:15:56.078 [Thread-197] DEBUG com.scienjus.smartqq.client.SmartQQApi -
+				发送成功
+2017-12-25 14:16:05.246 [Thread-198] DEBUG com.scienjus.smartqq.client.SmartQQApi -
+				开始发送消息
+2017-12-25 14:16:05.510 [Thread-198] DEBUG com.scienjus.smartqq.client.SmartQQApi -
+				发送成功
+2017-12-25 14:16:25.517 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 14:17:11.909 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 14:17:14.229 [Thread-199] DEBUG com.scienjus.smartqq.client.SmartQQApi -
+				开始发送消息
+2017-12-25 14:17:14.640 [Thread-199] DEBUG com.scienjus.smartqq.client.SmartQQApi -
+				发送成功
+2017-12-25 14:17:24.645 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 14:17:41.641 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 14:17:44.531 [Thread-200] DEBUG com.scienjus.smartqq.client.SmartQQApi -
+				开始发送消息
+2017-12-25 14:17:45.120 [Thread-200] DEBUG com.scienjus.smartqq.client.SmartQQApi -
+				发送成功
+2017-12-25 14:18:28.340 [Thread-201] DEBUG com.scienjus.smartqq.client.SmartQQApi -
+				开始发送消息
+2017-12-25 14:18:33.054 [Thread-201] DEBUG com.scienjus.smartqq.client.SmartQQApi -
+				发送成功
+2017-12-25 14:18:33.942 [Thread-202] DEBUG com.scienjus.smartqq.client.SmartQQApi -
+				开始发送消息
+2017-12-25 14:18:34.141 [Thread-202] DEBUG com.scienjus.smartqq.client.SmartQQApi -
+				发送成功
+2017-12-25 14:18:39.691 [Thread-203] DEBUG com.scienjus.smartqq.client.SmartQQApi -
+				开始发送消息
+2017-12-25 14:18:39.940 [Thread-203] ERROR com.scienjus.smartqq.client.SmartQQApi -
+				发送失败，Api返回码[1202]
+2017-12-25 14:18:44.310 [Thread-204] DEBUG com.scienjus.smartqq.client.SmartQQApi -
+				开始发送消息
+2017-12-25 14:18:44.466 [Thread-204] DEBUG com.scienjus.smartqq.client.SmartQQApi -
+				发送成功
+2017-12-25 14:18:53.211 [Thread-205] DEBUG com.scienjus.smartqq.client.SmartQQApi -
+				开始发送消息
+2017-12-25 14:18:53.337 [Thread-205] DEBUG com.scienjus.smartqq.client.SmartQQApi -
+				发送成功
+2017-12-25 14:18:56.183 [Thread-206] DEBUG com.scienjus.smartqq.client.SmartQQApi -
+				开始发送消息
+2017-12-25 14:18:56.278 [Thread-206] DEBUG com.scienjus.smartqq.client.SmartQQApi -
+				发送成功
+2017-12-25 14:19:31.963 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 14:19:42.080 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 14:19:52.208 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 14:20:46.962 [Thread-208] DEBUG com.scienjus.smartqq.client.SmartQQApi -
+				开始发送消息
+2017-12-25 14:20:50.467 [Thread-208] DEBUG com.scienjus.smartqq.client.SmartQQApi -
+				发送成功
+2017-12-25 14:20:52.952 [Thread-209] DEBUG com.scienjus.smartqq.client.SmartQQApi -
+				开始发送消息
+2017-12-25 14:20:53.191 [Thread-209] DEBUG com.scienjus.smartqq.client.SmartQQApi -
+				发送成功
+2017-12-25 14:21:08.930 [Thread-210] DEBUG com.scienjus.smartqq.client.SmartQQApi -
+				开始发送消息
+2017-12-25 14:21:09.187 [Thread-210] DEBUG com.scienjus.smartqq.client.SmartQQApi -
+				发送成功
+2017-12-25 14:21:29.858 [Thread-211] DEBUG com.scienjus.smartqq.client.SmartQQApi -
+				开始发送消息
+2017-12-25 14:21:30.215 [Thread-211] DEBUG com.scienjus.smartqq.client.SmartQQApi -
+				发送成功
+2017-12-25 14:21:37.131 [Thread-212] DEBUG com.scienjus.smartqq.client.SmartQQApi -
+				开始发送消息
+2017-12-25 14:21:37.340 [Thread-212] DEBUG com.scienjus.smartqq.client.SmartQQApi -
+				发送成功
+2017-12-25 14:21:42.777 [Thread-213] DEBUG com.scienjus.smartqq.client.SmartQQApi -
+				开始发送消息
+2017-12-25 14:21:43.297 [Thread-213] DEBUG com.scienjus.smartqq.client.SmartQQApi -
+				发送成功
+2017-12-25 14:21:52.348 [Thread-214] DEBUG com.scienjus.smartqq.client.SmartQQApi -
+				开始发送消息
+2017-12-25 14:21:52.544 [Thread-214] DEBUG com.scienjus.smartqq.client.SmartQQApi -
+				发送成功
+2017-12-25 14:21:56.224 [Thread-215] DEBUG com.scienjus.smartqq.client.SmartQQApi -
+				开始发送消息
+2017-12-25 14:21:57.111 [Thread-215] DEBUG com.scienjus.smartqq.client.SmartQQApi -
+				发送成功
+2017-12-25 14:22:20.102 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 14:22:45.040 [Thread-216] DEBUG com.scienjus.smartqq.client.SmartQQApi -
+				开始发送消息
+2017-12-25 14:22:45.264 [Thread-216] DEBUG com.scienjus.smartqq.client.SmartQQApi -
+				发送成功
+2017-12-25 14:22:54.136 [Thread-217] DEBUG com.scienjus.smartqq.client.SmartQQApi -
+				开始发送消息
+2017-12-25 14:22:54.570 [Thread-217] DEBUG com.scienjus.smartqq.client.SmartQQApi -
+				发送成功
+2017-12-25 14:23:08.935 [Thread-218] DEBUG com.scienjus.smartqq.client.SmartQQApi -
+				开始发送消息
+2017-12-25 14:23:09.231 [Thread-218] DEBUG com.scienjus.smartqq.client.SmartQQApi -
+				发送成功
+2017-12-25 14:23:19.493 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 14:23:25.130 [Thread-219] DEBUG com.scienjus.smartqq.client.SmartQQApi -
+				开始发送消息
+2017-12-25 14:23:25.696 [Thread-219] DEBUG com.scienjus.smartqq.client.SmartQQApi -
+				发送成功
+2017-12-25 14:23:35.700 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 14:23:52.267 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 14:23:57.125 [Thread-220] DEBUG com.scienjus.smartqq.client.SmartQQApi -
+				开始发送消息
+2017-12-25 14:24:01.155 [Thread-221] DEBUG com.scienjus.smartqq.client.SmartQQApi -
+				开始发送消息
+2017-12-25 14:24:01.532 [Thread-221] DEBUG com.scienjus.smartqq.client.SmartQQApi -
+				发送成功
+2017-12-25 14:24:11.670 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 14:24:16.239 [Thread-222] DEBUG com.scienjus.smartqq.client.SmartQQApi -
+				开始发送消息
+2017-12-25 14:24:16.578 [Thread-222] DEBUG com.scienjus.smartqq.client.SmartQQApi -
+				发送成功
+2017-12-25 14:24:31.351 [Thread-223] DEBUG com.scienjus.smartqq.client.SmartQQApi -
+				开始发送消息
+2017-12-25 14:24:31.582 [Thread-223] DEBUG com.scienjus.smartqq.client.SmartQQApi -
+				发送成功
+2017-12-25 14:24:38.382 [Thread-224] DEBUG com.scienjus.smartqq.client.SmartQQApi -
+				开始发送消息
+2017-12-25 14:24:38.685 [Thread-224] DEBUG com.scienjus.smartqq.client.SmartQQApi -
+				发送成功
+2017-12-25 14:24:51.734 [Thread-225] DEBUG com.scienjus.smartqq.client.SmartQQApi -
+				开始发送消息
+2017-12-25 14:24:52.805 [Thread-225] DEBUG com.scienjus.smartqq.client.SmartQQApi -
+				发送成功
+2017-12-25 14:25:02.108 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 14:25:14.268 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 14:25:40.185 [Thread-226] DEBUG com.scienjus.smartqq.client.SmartQQApi -
+				开始发送消息
+2017-12-25 14:25:40.597 [Thread-226] ERROR com.scienjus.smartqq.client.SmartQQApi -
+				发送失败，Api返回码[1202]
+2017-12-25 14:26:00.305 [Thread-227] DEBUG com.scienjus.smartqq.client.SmartQQApi -
+				开始发送消息
+2017-12-25 14:26:02.104 [Thread-227] DEBUG com.scienjus.smartqq.client.SmartQQApi -
+				发送成功
+2017-12-25 14:26:15.748 [Thread-228] DEBUG com.scienjus.smartqq.client.SmartQQApi -
+				开始发送消息
+2017-12-25 14:26:16.171 [Thread-228] DEBUG com.scienjus.smartqq.client.SmartQQApi -
+				发送成功
+2017-12-25 14:26:47.113 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 14:27:25.551 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 14:28:37.390 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 14:28:47.767 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 14:29:09.808 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 14:29:19.898 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 14:29:30.146 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 14:29:40.292 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 14:29:53.522 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 14:30:44.268 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 14:31:14.565 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 14:31:34.683 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 14:31:44.808 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 14:32:15.264 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 14:32:25.560 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 14:32:56.246 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 14:33:06.317 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 14:33:16.453 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 14:34:31.159 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 14:34:54.531 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 14:35:58.468 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 14:36:39.226 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 14:38:19.429 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 14:39:47.255 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 14:40:37.050 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 14:40:57.500 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 14:41:36.685 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 14:42:01.449 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 14:43:07.785 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 14:43:18.710 [Thread-178] INFO  com.scienjus.smartqq.client.SmartQQApi -
+				开始获取群资料
+2017-12-25 14:44:05.869 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 14:44:10.283 [Thread-178] INFO  com.scienjus.smartqq.client.SmartQQApi -
+				开始获取群资料
+2017-12-25 14:44:52.343 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 14:46:50.364 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 14:47:17.675 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 14:47:51.345 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 14:48:21.923 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 14:48:41.733 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 14:49:01.269 [Thread-178] INFO  com.scienjus.smartqq.client.SmartQQApi -
+				开始获取讨论组资料
+2017-12-25 14:49:34.917 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 14:50:56.551 [Thread-178] INFO  com.scienjus.smartqq.client.SmartQQApi -
+				开始获取群资料
+2017-12-25 14:51:36.946 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				connect timed out
+2017-12-25 14:52:07.546 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 14:52:17.776 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 14:53:30.999 [Thread-229] DEBUG com.scienjus.smartqq.client.SmartQQApi -
+				开始发送消息
+2017-12-25 14:53:32.138 [Thread-229] DEBUG com.scienjus.smartqq.client.SmartQQApi -
+				发送成功
+2017-12-25 14:53:41.511 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 14:53:52.028 [Thread-230] DEBUG com.scienjus.smartqq.client.SmartQQApi -
+				开始发送消息
+2017-12-25 14:53:52.293 [Thread-230] DEBUG com.scienjus.smartqq.client.SmartQQApi -
+				发送成功
+2017-12-25 14:54:02.351 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 14:54:12.353 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 14:54:43.003 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 14:56:48.828 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 14:57:09.123 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 14:57:25.153 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 14:58:37.622 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 14:58:55.057 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 14:59:19.609 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 15:00:00.961 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 15:00:46.752 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 15:01:30.784 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 15:01:53.894 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 15:02:04.084 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 15:04:47.989 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 15:05:23.647 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 15:05:33.726 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 15:06:10.418 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 15:06:23.538 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 15:07:00.130 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 15:07:30.838 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 15:08:20.413 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 15:09:21.494 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 15:09:41.756 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 15:10:35.760 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 15:11:39.759 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 15:12:04.041 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 15:12:24.369 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 15:13:19.328 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 15:13:49.895 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 15:14:40.351 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 15:14:50.495 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 15:15:00.655 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 15:15:33.235 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 15:16:04.745 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 15:16:45.528 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 15:16:55.669 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 15:17:25.913 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 15:17:35.962 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 15:17:59.157 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 15:18:56.248 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 15:20:56.427 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 15:21:12.402 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 15:24:15.801 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 15:25:59.674 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				timeout
+2017-12-25 15:26:27.406 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 15:26:53.522 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 15:27:33.836 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 15:27:44.025 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 15:27:54.110 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 15:28:14.209 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 15:28:34.310 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 15:28:44.361 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 15:29:34.808 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 15:29:44.855 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 15:30:13.930 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 15:31:09.859 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 15:31:43.028 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 15:32:28.712 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 15:32:38.853 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 15:33:44.113 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 15:34:46.958 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 15:36:41.986 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 15:37:03.833 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 15:37:55.693 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 15:38:57.192 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 15:39:21.069 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 15:39:42.621 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 15:42:28.329 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 15:43:55.870 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 15:44:18.314 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 15:44:31.754 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 15:46:02.375 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 15:47:16.767 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 15:48:23.181 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 15:48:33.233 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 15:50:17.369 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 15:51:50.611 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 15:52:19.793 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 15:52:55.938 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 15:53:36.193 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 15:53:46.423 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 15:54:22.977 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 15:56:31.095 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 15:56:41.141 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 15:57:12.632 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 15:57:31.471 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 15:59:23.448 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 15:59:33.506 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 15:59:53.605 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 16:00:04.954 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 16:00:15.011 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 16:01:09.848 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 16:01:19.895 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 16:01:29.944 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 16:01:40.066 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 16:02:25.841 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 16:02:44.190 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 16:03:15.313 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 16:03:45.552 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 16:04:26.021 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 16:04:46.258 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 16:05:46.784 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 16:05:56.898 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 16:07:30.686 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 16:08:01.091 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 16:08:21.193 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 16:08:31.420 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 16:10:52.319 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 16:11:22.568 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 16:11:52.715 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 16:12:23.965 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 16:13:21.531 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 16:14:34.779 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 16:14:54.876 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 16:15:04.922 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 16:15:14.971 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 16:15:25.129 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 16:15:53.625 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 16:16:03.671 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 16:16:13.723 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 16:17:04.103 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 16:17:14.151 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 16:17:24.200 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 16:17:34.246 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 16:17:54.346 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 16:18:27.570 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 16:18:37.728 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 16:18:47.779 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 16:18:57.831 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 16:19:07.879 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 16:19:17.928 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 16:20:25.481 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 16:20:35.578 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 16:21:15.772 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 16:21:35.864 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 16:22:06.007 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 16:22:26.106 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 16:22:36.155 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 16:23:06.301 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 16:23:16.348 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 16:23:26.397 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 16:23:36.444 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 16:23:56.544 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 16:24:56.838 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 16:25:06.886 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 16:25:27.051 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 16:25:37.099 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 16:25:57.348 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 16:26:17.446 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 16:26:32.929 [Thread-178] INFO  com.scienjus.smartqq.client.SmartQQApi -
+				开始获取讨论组资料
+2017-12-25 16:26:53.092 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 16:27:03.140 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 16:27:13.189 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 16:27:23.238 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 16:27:33.285 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 16:27:43.334 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 16:27:53.382 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 16:28:13.480 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 16:28:23.526 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 16:28:33.575 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 16:29:39.315 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 16:29:59.421 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 16:30:19.517 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 16:30:29.565 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 16:30:39.613 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 16:31:08.509 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 16:31:18.557 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				timeout
+2017-12-25 16:31:28.607 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 16:33:03.299 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 16:33:13.345 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 16:33:23.394 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 16:33:41.143 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 16:34:37.110 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 16:34:47.159 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 16:34:57.206 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 16:36:26.841 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 16:36:56.985 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 16:37:54.465 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 16:38:24.029 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 16:38:34.077 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 16:39:14.269 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 16:40:46.857 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 16:42:42.095 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 16:43:02.193 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 16:43:42.383 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 16:43:52.429 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 16:44:12.525 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 16:45:12.949 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 16:45:22.999 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 16:45:43.095 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 16:46:13.239 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 16:47:23.581 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 16:47:33.629 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 16:47:43.677 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 16:48:33.920 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 16:49:14.123 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 16:49:34.223 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 16:50:42.263 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 16:50:52.311 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 16:51:42.562 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 16:53:13.006 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 16:54:59.914 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 16:55:09.963 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 16:56:00.215 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 16:56:30.360 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 16:57:35.440 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 16:57:45.489 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 16:57:55.536 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 16:58:45.778 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 16:59:05.874 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 16:59:15.923 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 16:59:25.969 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 16:59:36.017 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 16:59:56.112 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 17:00:36.302 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 17:01:26.537 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 17:02:06.738 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 17:02:16.788 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 17:03:27.233 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 17:03:37.280 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 17:03:47.329 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 17:04:14.642 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 17:04:34.737 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 17:05:16.801 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 17:06:27.134 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 17:06:37.989 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 17:06:48.036 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 17:07:34.049 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 17:08:04.192 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 17:08:24.290 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 17:09:42.933 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 17:10:03.621 [Thread-178] INFO  com.scienjus.smartqq.client.SmartQQApi -
+				开始获取讨论组资料
+2017-12-25 17:10:13.733 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 17:10:29.813 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 17:10:52.969 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 17:11:52.076 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 17:12:02.990 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 17:12:30.014 [Thread-178] INFO  com.scienjus.smartqq.client.SmartQQApi -
+				开始获取讨论组资料
+2017-12-25 17:13:36.479 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 17:14:06.377 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				timeout
+2017-12-25 17:14:36.521 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 17:15:03.173 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 17:15:27.855 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 17:15:57.998 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 17:17:18.400 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 17:17:32.752 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 17:17:46.666 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 17:18:05.100 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 17:18:38.091 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 17:18:48.138 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 17:18:58.186 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 17:19:41.857 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 17:19:51.906 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 17:21:14.561 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 17:22:02.817 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				timeout
+2017-12-25 17:22:54.182 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 17:24:01.931 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 17:24:22.304 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 17:24:32.351 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 17:25:01.513 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 17:25:38.395 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 17:26:22.806 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 17:27:13.714 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 17:27:33.819 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 17:28:35.374 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 17:28:55.467 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 17:29:15.566 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 17:29:35.674 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 17:29:45.724 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 17:29:55.769 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 17:30:05.885 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 17:30:49.827 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 17:31:08.448 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 17:32:11.568 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 17:33:43.930 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 17:33:53.993 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 17:35:20.167 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 17:36:07.430 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 17:36:25.238 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 17:36:35.290 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 17:37:05.127 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 17:37:30.811 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 17:39:15.102 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 17:39:32.661 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 17:39:42.711 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 17:40:12.877 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 17:40:51.365 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 17:41:11.462 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 17:41:41.952 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 17:42:46.691 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 17:43:16.124 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 17:43:26.358 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 17:43:36.406 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 17:43:55.036 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 17:44:24.366 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 17:44:34.415 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 17:44:44.607 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 17:45:04.972 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 17:45:35.460 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 17:46:15.504 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 17:46:52.355 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 17:47:04.233 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 17:47:14.282 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 17:47:45.547 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 17:47:55.596 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 17:48:15.691 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 17:48:55.883 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 17:49:05.932 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 17:49:47.278 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 17:49:57.327 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 17:50:46.522 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 17:51:59.346 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 17:53:02.251 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 17:53:16.397 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 17:53:59.267 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 17:54:55.626 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 17:55:33.535 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 17:55:53.632 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 17:56:58.065 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				timeout
+2017-12-25 17:57:18.167 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 17:57:39.634 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 17:57:49.682 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 17:57:59.730 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 17:58:29.877 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 17:58:39.927 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 17:59:00.023 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 17:59:10.072 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 17:59:45.683 [Thread-251] DEBUG com.scienjus.smartqq.client.SmartQQApi -
+				开始发送消息
+2017-12-25 17:59:45.808 [Thread-251] DEBUG com.scienjus.smartqq.client.SmartQQApi -
+				发送成功
+2017-12-25 18:00:52.531 [Thread-252] DEBUG com.scienjus.smartqq.client.SmartQQApi -
+				开始发送消息
+2017-12-25 18:00:52.657 [Thread-252] DEBUG com.scienjus.smartqq.client.SmartQQApi -
+				发送成功
+2017-12-25 18:02:08.083 [Thread-253] DEBUG com.scienjus.smartqq.client.SmartQQApi -
+				开始发送消息
+2017-12-25 18:02:08.206 [Thread-253] DEBUG com.scienjus.smartqq.client.SmartQQApi -
+				发送成功
+2017-12-25 18:02:51.738 [Thread-254] DEBUG com.scienjus.smartqq.client.SmartQQApi -
+				开始发送消息
+2017-12-25 18:02:51.863 [Thread-254] DEBUG com.scienjus.smartqq.client.SmartQQApi -
+				发送成功
+2017-12-25 18:04:17.006 [Thread-257] DEBUG com.scienjus.smartqq.client.SmartQQApi -
+				开始发送消息
+2017-12-25 18:04:17.137 [Thread-257] DEBUG com.scienjus.smartqq.client.SmartQQApi -
+				发送成功
+2017-12-25 18:04:27.175 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 18:04:37.178 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 18:05:07.327 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 18:05:27.423 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 18:06:31.901 [Thread-258] DEBUG com.scienjus.smartqq.client.SmartQQApi -
+				开始发送消息
+2017-12-25 18:06:32.027 [Thread-258] DEBUG com.scienjus.smartqq.client.SmartQQApi -
+				发送成功
+2017-12-25 18:07:42.775 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 18:08:33.162 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 18:08:43.210 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 18:09:59.061 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 18:10:37.713 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 18:10:57.569 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 18:11:17.729 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 18:12:18.024 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 18:12:38.256 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 18:13:10.680 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 18:13:40.824 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 18:13:50.891 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 18:14:41.152 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 18:14:51.198 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
+2017-12-25 18:15:31.391 [Thread-178] DEBUG com.scienjus.smartqq.client.SmartQQClient -
+				Read timed out
